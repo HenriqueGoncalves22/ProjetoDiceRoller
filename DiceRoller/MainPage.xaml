@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiceRoller.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30">
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label FontSize="32" Text="ROLADOR DE DADOS" Padding="30"></Label>
+            </HorizontalStackLayout>
+            <Label HorizontalOptions="Center" FontSize="80" x:Name="ContadorLabel" Text="0">
+            </Label>
+            <Picker HorizontalOptions="Center" x:Name="QuantidadePicker"
+          Title="Quantidade de lados">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>4</x:String>
+                        <x:String>6</x:String>
+                        <x:String>10</x:String>
+                        <x:String>12</x:String>
+                        <x:String>20</x:String>
+                        <x:String>100</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button  HorizontalOptions="Center" Text="Sortear" x:Name="SortearButton" Clicked="SortearButton_Clicked">
+            </Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

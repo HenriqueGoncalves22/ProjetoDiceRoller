@@ -1,0 +1,1 @@
+D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\DiceRoller.csproj;x64
