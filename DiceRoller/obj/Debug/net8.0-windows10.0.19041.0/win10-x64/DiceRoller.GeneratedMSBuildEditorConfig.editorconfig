@@ -12,6 +12,12 @@ build_property.ProjectDir = D:\Henrique_2DS\Programacao de Aplicativos Mobile\Di
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[D:/Henrique_2DS/Programacao de Aplicativos Mobile/DiceRoller/DiceRoller/DiceRoller/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DiceRoller.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
 [D:/Henrique_2DS/Programacao de Aplicativos Mobile/DiceRoller/DiceRoller/DiceRoller/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DiceRoller.App.xaml

@@ -8,7 +8,7 @@
         Spacing="25"
         Padding="30">
             <HorizontalStackLayout HorizontalOptions="Center">
-                <Label FontSize="32" Text="ROLADOR DE DADOS" Padding="30"></Label>
+                <Label FontSize="32" Text="ROLADOR DE DADOS" ></Label>
             </HorizontalStackLayout>
             <Label HorizontalOptions="Center" FontSize="80" x:Name="ContadorLabel" Text="0">
             </Label>
@@ -25,8 +25,24 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <Button  HorizontalOptions="Center" Text="Sortear" x:Name="SortearButton" Clicked="SortearButton_Clicked">
+            <Label Text="Insira a quantidade de dados:" HorizontalOptions="Center" />
+            <Entry  Keyboard="Numeric" x:Name="QuantidadeEntry" WidthRequest="120"/>
+            <Picker HorizontalOptions="Center" x:Name="ModificadorPicker" Title="Selecione um modificador por rolagem">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button  HorizontalOptions="Center" Text="Rolar!" x:Name="SortearButton" Clicked="SortearButton_Clicked">
             </Button>
+            
+            
 
         </VerticalStackLayout>
     </ScrollView>

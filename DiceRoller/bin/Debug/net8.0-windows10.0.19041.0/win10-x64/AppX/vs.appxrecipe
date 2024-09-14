@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-13T22:18:52.094</Modified>
+      <Modified>2024-09-14T01:27:23.747</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-09-13T22:18:51.938</Modified>
+      <Modified>2024-09-13T23:00:18.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DiceRoller.runtimeconfig.json">
       <PackagePath>DiceRoller.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DiceRoller.dll">
       <PackagePath>DiceRoller.dll</PackagePath>
-      <Modified>2024-09-13T22:18:50.672</Modified>
+      <Modified>2024-09-14T01:27:23.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DiceRoller.exe</PackagePath>
-      <Modified>2024-09-13T22:18:50.672</Modified>
+      <Modified>2024-09-14T01:27:23.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Henrique_2DS\Programacao de Aplicativos Mobile\DiceRoller\DiceRoller\DiceRoller\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DiceRoller.deps.json">
       <PackagePath>DiceRoller.deps.json</PackagePath>
-      <Modified>2024-09-13T22:18:51.563</Modified>
+      <Modified>2024-09-13T23:00:18.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\etechas\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
